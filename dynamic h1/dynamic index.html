@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js practise</title>
+</head>
+<body>
+    <button onclick="update()">Add</button>
+    <div id="result"></div>
+
+<script>
+    var div = document.getElementById("result")
+
+    function update() 
+    {
+        //h1.textContent = "Hello" -> add click panna value print akum
+        
+         //create new element
+        var list = document.createElement("h1")
+        list.textContent="Hello"
+        div.append(list)
+
+    }
+</script>
+</body>
+</html>
+
