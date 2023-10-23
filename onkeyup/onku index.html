@@ -1,0 +1,21 @@
+<input id="inputbox" onkeyup="update()">
+<h1 id="result"></h1>
+
+<style>
+    body{
+      margin: 40px;  
+    }
+    input{
+        padding: 5px;
+    }
+</style>
+
+<script>
+    var input = document.getElementById("inputbox")
+    var result = document.getElementById("result")
+
+    function update() 
+    {
+        result.textContent = inputbox.value
+    }
+</script>
