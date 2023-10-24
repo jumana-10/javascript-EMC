@@ -6,7 +6,7 @@
     <title>button colour</title>
 </head>
 <body>
-    <button onclick="buttonclr()">change colour</button>
+    <button id="btn" onclick="buttonclr()">change colour</button>
 
     <style>
         button{
@@ -17,8 +17,11 @@
     </style>
 
     <script>
-        function buttonclr(){
-            
+        var buttton = document.getElementById("btn")
+
+        function buttonclr()
+        {
+            btn.style.backgroundColor = "lightblue"
         }
     </script>
 </body>
